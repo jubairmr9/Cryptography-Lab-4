@@ -10,11 +10,17 @@ public class BStepGStep {
     public static void main(String[] args) {
 
 
+        // Used Ahnaf and Chuck's p, g and A value together to get their 'a'. Then used my
+        // p, g and their B value to get their 'b'.
+
         System.out.println("Ahnaf and Chuck's 'a':");
         System.out.println(bStepGStep(BigInteger.valueOf(23834099), BigInteger.valueOf(3), BigInteger.valueOf(11284508)));
 
         System.out.println("Ahnaf and Chuck's 'b':");
         System.out.println(bStepGStep(BigInteger.valueOf(20000339), BigInteger.valueOf(3), BigInteger.valueOf(2401221)));
+
+        // Used David's p, g and A value together to get his 'a'. Then used his p, g and Avery
+        // and Kai's B value to get his 'b'.
 
         System.out.println("David's 'a':");
         System.out.println(bStepGStep(BigInteger.valueOf(35530787), BigInteger.valueOf(2), BigInteger.valueOf(30328638)));
@@ -22,6 +28,8 @@ public class BStepGStep {
         System.out.println("David's 'b':");
         System.out.println(bStepGStep(BigInteger.valueOf(35530787), BigInteger.valueOf(2), BigInteger.valueOf(28406022)));
 
+        // Used Avery and Kai's p, g and A value together to get their 'a'. Then used his p, g
+        // and David's B value to get their 'b'.
 
         System.out.println("Avery and Kai's 'a':");
         System.out.println(bStepGStep(BigInteger.valueOf(658996103), BigInteger.valueOf(5), BigInteger.valueOf(213962984)));
